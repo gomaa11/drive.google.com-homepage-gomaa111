@@ -334,6 +334,7 @@ body {
   .showpass2{
     margin-left: 14px;
     position: absolute;
+    width: 14px;
   }
 
 .showpass3{
@@ -621,7 +622,7 @@ nav {
     margin-left: -10px;
 }
 .box .inputBox label {
-  left: 3px;
+  left: 16px;
 }
 
 }
