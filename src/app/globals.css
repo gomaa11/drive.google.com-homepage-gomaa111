@@ -540,35 +540,37 @@ nav{
 }
 .opne {
   width: 37%;
-        height: 22px;
-        padding: 4px;
-        left: 21%;
+  height: 22px;
+  padding: 4px;
+  left: 20%;
 }
 nav {
   height: 41px;
 }
 .vide {
   
-  left: 1%;
-  top: 1px;
-  width: 35px;
+  left: 0%;
+        top: 1px;
+        width: 32px;
 }
 .opne1 {
-  font-size: 17px;
-  margin-left: 5px;
+  font-size: 16px;
+        margin-left: 1px;
 }
 .navlast{
   display: none;
 }
 .containerhome {
   left: 10px;
-  width: 95%;
+        width: 100%;
+        top: 41px;
 }
 .lastright{
   display: none;
 }
 .divcars {
   width: 97%;
+  left: 1px;
 }
 .divcars div {
   width: 149px;
@@ -583,7 +585,9 @@ nav {
   height: 119px;
 }
 .divwelcome {
-  width: 88%;
+  width: 89%;
+        top: 40px;
+        left: 8px;
 }
 .divwelcome h6 {
   margin-left: 8px;
@@ -595,14 +599,17 @@ nav {
 }
 .span1 {
   position: relative;
-  top: -9px;
-  left: -7px;
-  font-size: 13px;
+        top: -9px;
+        left: -9px;
+        font-size: 12px;
+        padding: 0px;
 
 }
 
 .iconsssss6{
-  width: 22px;
+        width: 23px;
+        margin: 0px;
+        height: 21px;
 }
 }
 /*---------------------------------------------(ُEnd media )-----------------------------------------------*/
