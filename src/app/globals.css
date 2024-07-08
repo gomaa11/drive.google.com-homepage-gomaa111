@@ -611,6 +611,19 @@ nav {
         margin: 0px;
         height: 21px;
 }
+.container {
+  width: 319px;
+  margin: 20px;
+    margin-top: 70px;
+}
+.box .inputBox input{
+  width: 85%;
+    margin-left: -10px;
+}
+.box .inputBox label {
+  left: 3px;
+}
+
 }
   /*_______________________________________________________________________________________*/
 
