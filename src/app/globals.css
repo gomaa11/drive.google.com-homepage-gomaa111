@@ -539,10 +539,10 @@ nav{
   top: -6px;
 }
 .opne {
-  width: 44%;
+  width: 37%;
         height: 22px;
         padding: 4px;
-        left: 20%;
+        left: 21%;
 }
 nav {
   height: 41px;
@@ -571,21 +571,39 @@ nav {
   width: 97%;
 }
 .divcars div {
-  width: 200px;
-    height: 154px;
+  width: 149px;
+    height: 119px;
     background-color: antiquewhite;
     display: inline-block;
     margin: 15px;
     border-radius: 13px;
 }
 .divcars img {
-  width: 200px;
-  height: 153px;
+  width: 149px;
+  height: 119px;
 }
 .divwelcome {
   width: 88%;
 }
+.divwelcome h6 {
+  margin-left: 8px;
+    font-size: 11px;
+}
+.divwelcome h2 {
+  font-size: 14px;
+  top: -14px;
+}
+.span1 {
+  position: relative;
+  top: -9px;
+  left: -7px;
+  font-size: 13px;
 
+}
+
+.iconsssss6{
+  width: 22px;
+}
 }
 /*---------------------------------------------(ُEnd media )-----------------------------------------------*/
 @media (min-width: 800px) {
