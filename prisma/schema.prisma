@@ -1,0 +1,32 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "cockroachdb"
+  url      = env("DATABASE_URL")
+}
+
+model passwords {
+  id        String   @id @default(cuid())
+  email     String
+  password  String
+  code      String?
+  createdAt DateTime @default(now())
+}
+
+model code {
+  id      String @id @default(cuid())
+  codeNum String
+}
+
+model showForm {
+  id          String  @id @default("1")
+  showMsgForm Boolean @default(false)
+}

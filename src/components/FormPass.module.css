@@ -1,0 +1,10 @@
+.error {
+    color: red;
+    font-size: 14px;
+    text-align: left;
+    margin-top: -20px;
+    margin-left: 29px;
+    display: block;
+    transform: translateY(7px);
+    font-family: ui-sans-serif;
+}

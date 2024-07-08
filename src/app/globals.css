@@ -1,0 +1,618 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+ 
+.__className_aaf875 {
+  font-family: '__Inter_aaf875', '__Inter_Fallback_aaf875';
+  font-style: normal;
+  background-color: #f8fafd;
+}
+body {
+ 
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Open Sans', sans-serif;
+}
+.iconsssss1 {
+  width: 32px;
+  margin-top: 12px;
+  margin-right: 25px;
+  color: #444746;
+}
+.iconsssss2 {
+  width: 23px;
+  margin-top: 14px;
+  color: #444746;
+  margin-right: 20px;
+}
+.iconsssss3 {
+  width: 26px;
+  margin-top: 16px;
+  margin-right: 15px;
+  color: #444746;
+}
+.iconsssss4 {
+  width: 26px;
+  margin-top: 13px;
+  margin-right: 15px;
+  color: #444746;
+}
+.iconsssss5 {
+  width: 26px;
+  margin-top: 13px;
+  margin-right: 15px;
+  color: #444746;
+}
+.iconsssss6 {
+    width: 24px;
+    height: 24px;
+    float: right;
+}
+.iconsssss7 {
+  width: 24px;
+  height: 24px;
+  
+}
+.span1 {
+  position: relative;
+    top: -6px;
+    left: 24px;
+  
+}
+.iconsssss1:hover{
+     
+    background-color: #455656;
+    border-radius: 16px
+}
+/*---------------------------------------------------------*/
+.navlast{
+  width: 253px;
+  
+  display: block;
+  justify-content: right;
+  position: fixed;
+  left: 7px;
+  top: 152px;
+  overflow: auto;
+  height: 66%;
+}
+
+.hhh{
+
+  background-color: #c2e7ff;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+  .navlast ul{
+  list-style: none;
+  
+  padding: 2px;
+  border-radius: 21px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  left: 2%;
+  height: 30px;
+  width: 175px
+  ;
+  
+}
+.navlast ul:hover{
+ 
+  background-color: #cacccf;
+  
+}
+.navlast p{
+  display: inline;
+    top: -3px;
+    position: relative;
+    padding-left: 13px;
+}
+
+/*----------------------------------------------------------------------*/
+
+.new1 {
+  list-style: none;
+    background-color: #ffffff;
+    padding: 2px;
+    border-radius: 21px;
+    position: fixed;
+    left: 1%;
+    height: 42px;
+    width: 100px;
+    top: 28px;
+    text-align: center;
+    padding-top: 17px;
+    font-size: 20px;
+    box-shadow: 0px 1px 3px 0px;
+}
+.container {
+    width: 420px;
+    margin: 50px auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+  }
+    .divIcon{
+      margin: 0 auto;
+      width: fit-content;
+      height: 24px;
+      border-width: 2px;
+      border-style: inset;
+      border-color: light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+      border-radius: 16px;
+      padding: 0 15px 0 15px;
+      margin-top: 28px;
+      margin-bottom: 30px;
+    }
+    .divIconEmail {
+      font-size: 14px;
+      padding-left: 36px;
+      margin-top: -21px;
+    }
+.icon2{
+    border-radius: 50%;
+    color: var(--gm3-sys-color-on-surface-variant, #444746);
+    display: block;
+    height: 24px;
+    width: 24px;
+}
+ .im{
+    margin-left: 40%;
+ }
+.box {
+  display: flex;
+    padding: 0;
+    flex-direction: column;
+    
+    justify-content: space-between;
+    position: relative;
+}
+ .contain{
+  padding:24px;
+  margin: 0 auto;
+  width: 100%;
+ }
+.info{
+    margin-left: -40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+.info h2 {
+    margin-bottom: 0;
+    color: #1f1f1f;
+    font-size: 2rem;
+    font-weight: 400;
+}
+ 
+.box .logo 
+{
+  display: flex;
+  justify-content: flex-start;
+  height: 48px; 
+}
+ 
+.info p {
+    color: #1f1f1f;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0rem;
+    line-height: 1.5;
+    margin-bottom: 0;
+    margin-top: 16px;
+}
+ 
+.box .inputBox {
+    position: relative;
+}
+ 
+.box .inputBox input {
+    width: 90%;
+    padding: 1.3rem 10px;
+    font-size: 1rem;
+   letter-spacing: 0.062rem;
+   margin-bottom: 1.875rem;
+   border: 1px solid #ccc;
+   background: transparent;
+   border-radius: 4px;
+}
+ .inputBox span{
+    color: #0b57d0;
+ }
+.box .inputBox label {
+    position: absolute;
+    top: 8px;
+    left: 19px;
+    padding: 0.625rem 0;
+    font-size: 1rem;
+    color: gray;
+    pointer-events: none;
+    transition: 0.2s;
+}
+
+.box .inputBox2 {
+  position: relative;
+}
+
+.box .inputBox2 input {
+  width: 90%;
+  padding: 1.3rem 10px;
+  font-size: 1rem;
+ letter-spacing: 0.062rem;
+ margin-bottom: 1.875rem;
+ border: 1px solid #ccc;
+ background: transparent;
+ border-radius: 4px;
+}
+.inputBox2 span{
+  color: #0b57d0;
+}
+.box .inputBox2 label {
+  position: absolute;
+  top: 8px;
+  left: 19px;
+  padding: 0.625rem 0;
+  font-size: 1rem;
+  color: gray;
+  pointer-events: none;
+  transition: 0.2s;
+}
+ 
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label
+ {
+    top: -1.125rem;
+    left: 10px;
+    color: #1a73e8;
+    font-size: 0.75rem;
+    background-color: #fff;
+    height: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+ 
+.box .inputBox input:focus {
+    outline: none;
+    border: 2px solid #1a73e8;
+}
+ 
+.box input[type="submit"] {
+    border: none;
+    margin-right: 25px;
+    outline: none;
+    color: #fff;
+    background-color: #1a73e8;
+    padding: 0.625rem 1.25rem;
+    cursor: pointer;
+    border-radius: 0.312rem;
+    font-size: 1rem;
+    float: right;
+  }
+   
+  .box input[type="submit"]:hover {
+    background-color: #287ae6;
+    box-shadow: 0 1px 1px 0 rgba(66,133,244,0.45), 0 1px 3px 1px rgba(66,133,244,0.3);
+  }
+.check
+{
+  display: flex;
+  display: inline-flex;
+ 
+  width: 100%;
+}
+
+
+  .link5 {
+    text-align: center;
+      font-size: 15px;
+      margin-top: 20px;
+  }
+  .link5 a{
+    text-decoration: none;
+    color: #1877f2;
+  }
+  .link5 p {
+    color: #64728b;
+    font-size: 15px;
+    text-align: left;
+  }
+  .for{
+    float: left;
+    margin: 13px;
+    color: #6dafdf;
+  }
+  .showpass1{
+    position: absolute;
+    width: 160px;
+    left: 9px;
+  }
+  .showpass2{
+    margin-left: 14px;
+    position: absolute;
+  }
+
+.showpass3{
+    margin-left: 39px;
+    
+  }
+  .divsign{
+    position: relative;
+    margin-top: 50px;
+  }
+  .get-it{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  .get-it h1{
+    font-size: 200px;
+    font-weight: bold;
+    color: red;
+  }
+  .get-it span{
+    font-size: 30px;
+  }
+
+.lien{
+    width: 100%;
+    height: 69px;
+    background-color: #232424;
+    box-shadow: 0 0 112px;
+    margin-top: -86px;
+
+}
+
+  .containerhome {
+    width: 83%;
+    height: 80%;
+    position: fixed;
+    overflow: auto;
+    top: 70px;
+    background-color: rgb(255 255 255);
+    border-radius: 14px;
+    border: none;
+    left: 272px;
+   
+  }
+nav{
+  width: 100%;
+  background-color: #f8fafd;
+  display: flex;
+  justify-content: right;
+  height: 57px;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 1000;
+    
+}
+
+
+.opne1{
+    position: absolute;
+    text-align: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: var(--dt-on-surface-variant, #5f6368);
+    top: -8px;
+    left: 4%;
+    font-size: 23px;
+}
+.opne{
+  padding: 12px;
+    position: absolute;
+    color: #4c4c4c;
+    top: -12px;
+    left: 20%;
+    background-color: #e9eef6;
+    width: 50%;
+    height: 24px;
+    border-radius: 24px;
+}
+.vide{
+  position: absolute;
+  left: 2%;
+  top: 7px;
+  width: 40px;
+}
+.divcars{
+  position: relative;
+    width: 89%;
+    overflow: hidden;
+    top: 149px;
+    left: 1%;
+}
+.car1{
+  width: 31%;
+  margin: 10px;
+  border-radius: 12px;
+}
+.car1:hover{
+  border: ridge;
+  border-radius: 12px;
+  margin: 7px;
+}
+.video1{
+  width: 200px;
+    background-color: aquamarine;
+}
+
+.video-container {
+  position: relative;
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* تغطية الفيديو بالكامل */
+}
+/*---------------------------------------------(media )-----------------------------------------------*/
+@media (max-width: 800px) {
+  .car1{
+    width: 44%;
+  }
+  .opne{
+    display: none;
+  }
+  .opne1 {
+    left: 8%;
+    font-size: 15px;
+}
+  .divcars {
+    left: 0%;
+    width: 98%;
+}
+nav{
+  width: 60%;
+}
+.vide {
+  width: 29px;
+}
+
+.container {
+  width: 320px;
+ 
+}
+}
+@media (min-width: 800px) {
+
+
+ 
+  .container {
+    width: 470px;
+   
+  }
+}
+/*---------------------------------------------(ُEnd media )-----------------------------------------------*/
+.tray{
+  width: 120px;
+    margin-left: 50px;
+    margin-top: 46px;
+    border: none;
+    margin-right: 25px;
+    outline: none;
+    color: #fff;
+    background-color: #1a73e8;
+    padding: .625rem 1.25rem;
+    cursor: pointer;
+    border-radius: .312rem;
+    font-size: 1rem;
+    float: right;
+}
+.num {
+  width: 25px;
+  border-style: solid;
+  border-radius: 58px;
+  padding: 15px;
+  position: relative;
+  text-align: center;
+  left: 45%;
+  margin-top: 90px;
+  margin-bottom: 77px;
+  border-color: #605e5e;
+    color: #605e5e;
+    height: 24px;
+}
+.numlabl{
+  width: 25px;
+  border-style: solid;
+  border-radius: 58px;
+  padding: 15px;
+  position: relative;
+  text-align: center;
+  left: 10%;
+  margin-top: 50px;
+  margin-bottom: 77px;
+  border-color: #605e5e;
+    color: #605e5e;
+    height: 24px;
+}
+.lastright{
+  position: fixed;
+    top: 66px;
+    width: 53px;
+    height: 88%;
+    background-color: #f8fafd;
+    right: 1px;
+}
+.divwelcome{
+  
+  height: 103px;
+  width: 73%;
+  position: fixed;
+  top: 69px;
+  margin-left: 17px;
+  z-index: 1000;
+  background-color: white;
+}
+.divwelcome h3{
+  font-size: 23px;
+    font-weight: 500;
+    margin-top: -1px;
+}
+.divwelcome h5{
+  display: inline;
+    font-size: 17px;
+    font-weight: 500;
+}
+.divwelcome h6{
+  display: inline;
+    margin-left: 48px;
+    font-size: 18px;
+    font-weight: 500;
+    border: solid;
+    padding-left: 18px;
+    padding-right: 15px;
+    border-width: 1px;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.divwelcome h2{
+  display: inline;
+    font-size: 18px;
+    font-weight: 500;
+    border: solid;
+    padding-left: 18px;
+    padding-right: 15px;
+    border-width: 1px;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: right;
+    top: -20px;
+    position: relative;
+}
+.divcars div{
+  width: 300px;
+    height: 235px;
+    background-color: antiquewhite;
+    display: inline-block;
+    margin: 15px;
+    border-radius: 13px;
+}
+.divcars img{
+  width: 300px;
+  height: 235px;
+    
+}
+.divcars div:hover{
+  filter: contrast(0.5);
+}
