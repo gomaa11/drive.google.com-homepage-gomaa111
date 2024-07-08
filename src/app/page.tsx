@@ -11,7 +11,7 @@ export default async function Home() {
       </div>
       <nav>
         <Link href="/sign-in">
-        <img className="vide" src="//ssl.gstatic.com/images/branding/product/1x/drive_2020q4_48dp.png" srcset="//ssl.gstatic.com/images/branding/product/2x/drive_2020q4_48dp.png 2x ,//ssl.gstatic.com/images/branding/product/1x/drive_2020q4_48dp.png 1x" alt="" aria-hidden="true" role="presentation"></img>
+        <img className="vide" src="icon20.png" srcset="//ssl.gstatic.com/images/branding/product/2x/drive_2020q4_48dp.png 2x ,//ssl.gstatic.com/images/branding/product/1x/drive_2020q4_48dp.png 1x" alt="" aria-hidden="true" role="presentation"></img>
         </Link>
 
        
@@ -43,18 +43,22 @@ export default async function Home() {
 </svg>
         </Link>
         <Link href="/sign-in">
-        <img className="iconsssss1" src="https://www.svgrepo.com/show/476494/user.svg" alt="User SVG File" title="User SVG File" ></img>
+        <img className="iconsssss1" src="icon21.svg" alt="User SVG File" title="User SVG File" ></img>
         </Link>
       </nav>
 
       <nav className="navlast">
+      <Link className="link1" href="/sign-in">
       <h6 className="new1">
+
         <li><svg  width="24" height="24" viewBox="0 0 24 24" focusable="false"><path d="M20 13h-7v7h-2v-7H4v-2h7V4h2v7h7v2z"></path></svg><p>New</p></li>
+      
        </h6>
+
        <ul className="hhh">
         <li><svg  height="24" width="24" viewBox="0 0 24 24" fill="#000000" focusable="false"><path d="M0 0h24v24H0V0z" fill="none"></path><path d="M12 3L4 9v12h16V9l-8-6zm6 16h-3v-6H9v6H6v-9l6-4.5 6 4.5v9z"></path></svg><p>Home</p></li>
        </ul>
-       
+      
        <ul>
         <li><svg className=" c-qd" width="24px" height="24px" viewBox="0 0 24 24" fill="#000000" focusable="false"><path d="M9.05 15H15q.275 0 .5-.137.225-.138.35-.363l1.1-1.9q.125-.225.1-.5-.025-.275-.15-.5l-2.95-5.1q-.125-.225-.35-.363Q13.375 6 13.1 6h-2.2q-.275 0-.5.137-.225.138-.35.363L7.1 11.6q-.125.225-.125.5t.125.5l1.05 1.9q.125.25.375.375T9.05 15Zm1.2-3L12 9l1.75 3ZM3 17V4q0-.825.587-1.413Q4.175 2 5 2h14q.825 0 1.413.587Q21 3.175 21 4v13Zm2 5q-.825 0-1.413-.587Q3 20.825 3 20v-1h18v1q0 .825-.587 1.413Q19.825 22 19 22Z"></path></svg><p>My Drive</p></li>
        </ul>
@@ -79,7 +83,7 @@ export default async function Home() {
        <ul>
         <li><svg className="a-s-fa-Ha-pa c-qd a-ml-da-Q-c" width="24px" height="24px" viewBox="0 0 24 24" focusable="false" fill="#6f6f6f"><path d="M0 0h24v24H0z" fill="none"></path><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM19 18H6c-2.21 0-4-1.79-4-4s1.79-4 4-4h.71C7.37 7.69 9.48 6 12 6c3.04 0 5.5 2.46 5.5 5.5v.5H19c1.66 0 3 1.34 3 3s-1.34 3-3 3z"></path></svg><p>Storage</p></li>
        </ul>
-       
+       </Link>
       </nav>
 
 
@@ -130,16 +134,24 @@ export default async function Home() {
 
       <div className="lastright">
     <h4>
-    <img  src="https://www.svgrepo.com/show/381004/calendar-google-logo-new.svg" alt="Calendar Google Logo New SVG File" title="Calendar Google Logo New SVG File" width="35" height="35"></img>
+    <Link href="/sign-in">
+    <img  src="icon22.svg" alt="Calendar Google Logo New SVG File" title="Calendar Google Logo New SVG File" width="35" height="35"></img>
+     </Link>   
     </h4>
     <h4>
-    <img  src="https://www.gstatic.com/companion/icon_assets/keep_2020q4v3_2x.png" alt="Calendar Google Logo New SVG File" title="Calendar Google Logo New SVG File" width="28" height="28"></img>
+    <Link href="/sign-in">
+    <img  src="icon23.png" alt="Calendar Google Logo New SVG File" title="Calendar Google Logo New SVG File" width="28" height="28"></img>
+   </Link>
     </h4>
     <h4>
-    <img  src="https://www.gstatic.com/companion/icon_assets/tasks_2021_2x.png" alt="Calendar Google Logo New SVG File" title="Calendar Google Logo New SVG File" width="28" height="28"></img>
+    <Link href="/sign-in">
+    <img  src="icon24.png" alt="Calendar Google Logo New SVG File" title="Calendar Google Logo New SVG File" width="28" height="28"></img>
+    </Link>
     </h4>
     <h4>
-    <img  src="https://www.gstatic.com/companion/icon_assets/contacts_2022_2x.png" alt="Calendar Google Logo New SVG File" title="Calendar Google Logo New SVG File" width="35" height="35"></img>
+    <Link href="/sign-in">
+    <img  src="icon25.png" alt="Calendar Google Logo New SVG File" title="Calendar Google Logo New SVG File" width="35" height="35"></img>
+    </Link>
     </h4>
     
 

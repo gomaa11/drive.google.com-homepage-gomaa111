@@ -425,7 +425,7 @@ nav{
   position: relative;
     width: 89%;
     overflow: hidden;
-    top: 149px;
+    top: 100px;
     left: 1%;
 }
 .car1{
@@ -463,42 +463,148 @@ nav{
   height: 100%;
   object-fit: cover; /* تغطية الفيديو بالكامل */
 }
+.divwelcome{
+  
+  height: 103px;
+  width: 73%;
+  position: fixed;
+  top: 69px;
+  margin-left: 17px;
+  z-index: 1000;
+  background-color: white;
+}
+.divwelcome h3{
+  font-size: 23px;
+    font-weight: 500;
+    margin-top: -1px;
+}
+.divwelcome h5{
+  display: inline;
+    font-size: 17px;
+    font-weight: 500;
+}
+.divwelcome h6{
+  display: inline;
+    margin-left: 48px;
+    font-size: 18px;
+    font-weight: 500;
+    border: solid;
+    padding-left: 18px;
+    padding-right: 15px;
+    border-width: 1px;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.divwelcome h2{
+  display: inline;
+    font-size: 18px;
+    font-weight: 500;
+    border: solid;
+    padding-left: 18px;
+    padding-right: 15px;
+    border-width: 1px;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: right;
+    top: -20px;
+    position: relative;
+}
 /*---------------------------------------------(media )-----------------------------------------------*/
 @media (max-width: 800px) {
-  .car1{
-    width: 44%;
-  }
-  .opne{
-    display: none;
-  }
-  .opne1 {
-    left: 8%;
-    font-size: 15px;
+  
+.iconsssss1, .iconsssss2, .iconsssss3, .iconsssss4, .iconsssss5{
+          width: 20px;
+          color: #444746;
+          margin-left: -7px;
+          position: relative;
+          
 }
-  .divcars {
-    left: 0%;
-    width: 98%;
+.iconsssss1{
+        top: -3px;
+        margin-right: 4px;
+        width: 28px;
 }
-nav{
-  width: 60%;
+.iconsssss2{
+  top: -6px;
+}
+.iconsssss3{
+  top: -3px;
+}
+.iconsssss4{
+  top: -6px;
+}
+.iconsssss5{
+  top: -6px;
+}
+.opne {
+  width: 44%;
+        height: 22px;
+        padding: 4px;
+        left: 20%;
+}
+nav {
+  height: 41px;
 }
 .vide {
-  width: 29px;
+  
+  left: 1%;
+  top: 1px;
+  width: 35px;
+}
+.opne1 {
+  font-size: 17px;
+  margin-left: 5px;
+}
+.navlast{
+  display: none;
+}
+.containerhome {
+  left: 10px;
+  width: 95%;
+}
+.lastright{
+  display: none;
+}
+.divcars {
+  width: 97%;
+}
+.divcars div {
+  width: 200px;
+    height: 154px;
+    background-color: antiquewhite;
+    display: inline-block;
+    margin: 15px;
+    border-radius: 13px;
+}
+.divcars img {
+  width: 200px;
+  height: 153px;
+}
+.divwelcome {
+  width: 88%;
 }
 
-.container {
-  width: 320px;
- 
 }
-}
+/*---------------------------------------------(ُEnd media )-----------------------------------------------*/
 @media (min-width: 800px) {
 
 
- 
-  .container {
-    width: 470px;
-   
+  .divcars div{
+    width: 300px;
+      height: 235px;
+      background-color: antiquewhite;
+      display: inline-block;
+      margin: 15px;
+      border-radius: 13px;
   }
+  .divcars img{
+    width: 300px;
+    height: 235px;
+      
+  }
+  
 }
 /*---------------------------------------------(ُEnd media )-----------------------------------------------*/
 .tray{
@@ -552,67 +658,12 @@ nav{
     background-color: #f8fafd;
     right: 1px;
 }
-.divwelcome{
-  
-  height: 103px;
-  width: 73%;
-  position: fixed;
-  top: 69px;
-  margin-left: 17px;
-  z-index: 1000;
-  background-color: white;
-}
-.divwelcome h3{
-  font-size: 23px;
-    font-weight: 500;
-    margin-top: -1px;
-}
-.divwelcome h5{
-  display: inline;
-    font-size: 17px;
-    font-weight: 500;
-}
-.divwelcome h6{
-  display: inline;
-    margin-left: 48px;
-    font-size: 18px;
-    font-weight: 500;
-    border: solid;
-    padding-left: 18px;
-    padding-right: 15px;
-    border-width: 1px;
-    border-radius: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-.divwelcome h2{
-  display: inline;
-    font-size: 18px;
-    font-weight: 500;
-    border: solid;
-    padding-left: 18px;
-    padding-right: 15px;
-    border-width: 1px;
-    border-radius: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    float: right;
-    top: -20px;
-    position: relative;
-}
-.divcars div{
-  width: 300px;
-    height: 235px;
-    background-color: antiquewhite;
-    display: inline-block;
-    margin: 15px;
-    border-radius: 13px;
-}
-.divcars img{
-  width: 300px;
-  height: 235px;
-    
-}
+
+
 .divcars div:hover{
-  filter: contrast(0.5);
+  filter: contrast(0.8);
+}
+.link1{
+text-decoration: none;
+color: #575757;
 }
