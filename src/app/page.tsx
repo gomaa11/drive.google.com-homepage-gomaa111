@@ -11,7 +11,7 @@ export default async function Home() {
       </div>
       <nav>
         <Link href="/sign-in">
-        <img className="vide" src="icon20.png" srcset="//ssl.gstatic.com/images/branding/product/2x/drive_2020q4_48dp.png 2x ,//ssl.gstatic.com/images/branding/product/1x/drive_2020q4_48dp.png 1x" alt="" aria-hidden="true" role="presentation"></img>
+        <img className="vide" src="icon20.png"></img>
         </Link>
 
        
